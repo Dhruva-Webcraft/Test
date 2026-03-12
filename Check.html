@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Resource Hub</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+background:#f5f7fb;
+}
+
+/* Hero Section */
+.hero{
+background: linear-gradient(135deg,#4e73df,#224abe);
+color:white;
+padding:100px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:48px;
+font-weight:bold;
+}
+
+/* Search Bar */
+.search-box{
+margin-top:20px;
+max-width:500px;
+margin-left:auto;
+margin-right:auto;
+}
+
+/* Resource Cards */
+.resource-card{
+border:none;
+border-radius:12px;
+transition:0.3s;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.resource-card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+.resource-icon{
+font-size:40px;
+color:#4e73df;
+}
+
+/* Footer */
+footer{
+background:#222;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+.social-icons i{
+font-size:22px;
+margin:0 10px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.social-icons i:hover{
+color:#4e73df;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+
+<a class="navbar-brand" href="#">Student Hub</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link active" href="#">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Courses</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Resources</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Contact</a>
+</li>
+
+</ul>
+</div>
+
+</div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+
+<h1>Student Resource Hub</h1>
+<p>Your one-stop place for all learning materials</p>
+
+<div class="search-box">
+<div class="input-group">
+<input type="text" class="form-control" placeholder="Search resources...">
+<button class="btn btn-light">
+<i class="bi bi-search"></i>
+</button>
+</div>
+</div>
+
+</section>
+
+<!-- Resources Section -->
+<section class="container my-5">
+
+<h2 class="text-center mb-4">Resources</h2>
+
+<div class="row g-4">
+
+<!-- Card 1 -->
+<div class="col-md-4 col-sm-6">
+<div class="card resource-card text-center p-4">
+
+<i class="bi bi-journal-text resource-icon"></i>
+<h5 class="mt-3">Notes</h5>
+<p>Download subject notes for quick revision.</p>
+
+</div>
+</div>
+
+<!-- Card 2 -->
+<div class="col-md-4 col-sm-6">
+<div class="card resource-card text-center p-4">
+
+<i class="bi bi-laptop resource-icon"></i>
+<h5 class="mt-3">Tutorials</h5>
+<p>Step-by-step tutorials for better understanding.</p>
+
+</div>
+</div>
+
+<!-- Card 3 -->
+<div class="col-md-4 col-sm-6">
+<div class="card resource-card text-center p-4">
+
+<i class="bi bi-camera-video resource-icon"></i>
+<h5 class="mt-3">Videos</h5>
+<p>Watch educational videos from experts.</p>
+
+</div>
+</div>
+
+<!-- Card 4 -->
+<div class="col-md-4 col-sm-6">
+<div class="card resource-card text-center p-4">
+
+<i class="bi bi-file-earmark-text resource-icon"></i>
+<h5 class="mt-3">Assignments</h5>
+<p>Practice assignments to test your knowledge.</p>
+
+</div>
+</div>
+
+<!-- Card 5 -->
+<div class="col-md-4 col-sm-6">
+<div class="card resource-card text-center p-4">
+
+<i class="bi bi-code-slash resource-icon"></i>
+<h5 class="mt-3">Coding Practice</h5>
+<p>Improve programming skills with exercises.</p>
+
+</div>
+</div>
+
+<!-- Card 6 -->
+<div class="col-md-4 col-sm-6">
+<div class="card resource-card text-center p-4">
+
+<i class="bi bi-book resource-icon"></i>
+<h5 class="mt-3">eBooks</h5>
+<p>Access a variety of academic eBooks.</p>
+
+</div>
+</div>
+
+</div>
+
+</section>
+
+<!-- Footer -->
+<footer>
+
+<p>Contact: studenthub@email.com</p>
+
+<div class="social-icons">
+<i class="bi bi-facebook"></i>
+<i class="bi bi-instagram"></i>
+<i class="bi bi-twitter"></i>
+<i class="bi bi-linkedin"></i>
+</div>
+
+<p class="mt-2">© 2026 Student Resource Hub</p>
+
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
